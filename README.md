@@ -46,7 +46,7 @@ data();
   1)ancestor  descendant
   2)parent >child
   3)prev + next
-  4)prev~siblings
+  4)prev~siblings 
 3、基本
   1):first
   2):last
@@ -54,11 +54,12 @@ data();
   4):even
   5):odd
   6):eq
-  7):gt
-  8):lt
+  7):gt  大于
+  8):lt  小于
 4、内容
  1):has
  2):parent
+ 3):enpty
 5、属性
   1)[name]
   2)[name=user1]
@@ -86,12 +87,51 @@ data();
 8、表单属性
   1):checked
   2):selected
-  3):
+  
  
+ 筛选：
+ 1、过滤
+ eq()
+ first()
+ last()
+ not()
+ slice()
  
+ 2、查找
+ children()
+ find()
+ next()
+ nextAll()
+ parent()
+ prev()
+ prevAll()
+ siblings()
  
+ 3、串联
+ add()
+ andSelf()
  
+ 属性：
+ 1、属性
+ attr()
+ attr({})
  
+ 2、css类
+ addClass()
+ removeClass()
+ toggleClass()
+ 
+ 3、HTML代码
+ html() 取值
+ html(val)  赋值
+ 
+ 4、文本
+ text()
+ text(val)
+ 
+ 5、值
+ val()取值
+ val(val)赋值
  
  
  
