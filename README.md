@@ -133,6 +133,20 @@ data();
  val()取值
  val(val)赋值
  
+ 文档处理
+ 1、内部插入
+ append（）
+ appendTo（）
+ prepend()
+ prependTo()
+ 
+ 2、外部插入
+after()
+before()
+insertAfter()
+
+3、包围
+
  
  
  
