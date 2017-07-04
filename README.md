@@ -144,10 +144,21 @@ data();
 after()
 before()
 insertAfter()
-
-3、包围
-
- 
+ 
+事件 
+1、页面载入
+ready(fn)
+$(fn)
+2、事件处理
+bind()
+one()
+unbind()
+3、事件委派
+live()
+die()
+4、事件切换
+hover()
+toggle()
  
  
  
